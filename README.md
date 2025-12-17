@@ -13,11 +13,10 @@ A minimal web server written in Go using the standard `net/http` package. This p
 
 - Make sure Go is installed on your system
 
-'''bash
+```bash
 go build
-
 go build main.go
-'''
+```
 
 ## Features
 
@@ -26,3 +25,4 @@ go build main.go
 * http://localhost:8080/hello – See the hello message
 
 * Submit the form in form.html to test the /form endpoint
+
